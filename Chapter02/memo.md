@@ -10,8 +10,11 @@ When installing minikube, use VirtualBox drive is much more better, even though 
 Follow this to install it on ubuntu: https://vitux.com/how-to-install-virtualbox-on-ubuntu/
 
 ### 3.
-After a successful installtion, it kubectl can not connect the the cluster, please check the ~/.kube/config for the cluster ip address and add it to NO_PROXY env variable.
+After a successful installation, if kubectl can not connect the the cluster, please check the ~/.kube/config for the cluster ip address and add it to NO_PROXY env variable.
 
+
+### 4.
+After successful installation, if minikube dashboard can not open, minikube stop and minikube start again to resolve it.
 
 
  
