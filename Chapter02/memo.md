@@ -16,5 +16,8 @@ After a successful installation, if kubectl can not connect the the cluster, ple
 ### 4.
 After successful installation, if minikube dashboard can not open, minikube stop and minikube start again to resolve it.
 
+### 5.
+How to get more information of the pods? <br>
+kubectl get pods -o wide
 
  
