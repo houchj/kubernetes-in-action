@@ -8,6 +8,10 @@ kubectl label node minikube disk=ssd <br>
 kubectl describe node minikube <br>
 After the label is added, a new DeamonSet pod will be added automatically. <br>
 
-### 3. 
+### 3. ReplicationSet apiVersion is also changed to v1 not v1beta2
+see changes in kubia-replicaset.yaml <br>
+
+### 4.
+
 
 
