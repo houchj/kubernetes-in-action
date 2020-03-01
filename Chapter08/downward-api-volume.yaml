@@ -17,11 +17,11 @@ spec:
     command: ["sleep", "9999999"]
     resources:
       requests:
-        cpu: 15m
-        memory: 100Ki
+        cpu: 150m
+        memory: 1000Ki
       limits:
-        cpu: 100m
-        memory: 4Mi
+        cpu: 1000m
+        memory: 40Mi
     volumeMounts:
     - name: downward
       mountPath: /etc/downward
