@@ -4,4 +4,8 @@
   1.1 the apiVersion is apps/v1  <br>
   1.2 the selector is mandatory now <br>
 
-### 2. kubectl expose deployment kubia --type=NodePort --name=kubia-deployment-svc
+### 2. remember to keep the service created on prior steps before create deployment.
+
+Also added kubia-svc-standalone.yaml for creating the separate service.
+
+
