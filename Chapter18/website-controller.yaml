@@ -15,4 +15,4 @@ spec:
       - name: main
         image: luksa/website-controller
       - name: proxy
-        image: luksa/kubectl-proxy:1.6.2
+        image: houchj/kubectl-proxy:1.15.9
