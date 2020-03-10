@@ -11,8 +11,9 @@
 
 ### 2. the new image is under houchj/kubectl-proxy:1.15.10
 
-
-### 3. about how to use the new WebSite
+### 3. the controller code is under https://github.com/houchj/k8s-website-controller.git
+  Note: still need some modification as it didn't work.
+### 4. about how to use the new WebSite
 
 
 
