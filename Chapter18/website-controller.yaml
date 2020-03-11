@@ -13,6 +13,6 @@ spec:
       serviceAccountName: website-controller
       containers:
       - name: main
-        image: luksa/website-controller
+        image: houchj/website-controller:1.0.0
       - name: proxy
         image: houchj/kubectl-proxy:1.15.10
